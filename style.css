@@ -260,4 +260,34 @@ header{
 .services-container .box .btn:hover{
     background: var(--main-color);
 }
-
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.about-img img{
+    width: 100%;
+}
+.about-text span{
+    font-weight: 500;
+    color: var(--main-color);
+    text-transform: uppercase;
+    padding-left: 120px;
+}
+.about-text p{
+    padding-left: 120px;
+    margin: 0.5rem 0 1.4rem;
+}
+.about-text .btn{
+    padding: 10px 20px;
+    background: #474fa0;
+    color: #fff;
+    border-radius: 0.5rem;
+    margin-left: 120px;
+}
+.about-text .btn:hover{
+    background: var(--main-color);
+}
