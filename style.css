@@ -413,3 +413,16 @@ header{
     padding: 8px 20px;
     border-radius: 0.5rem;
 }
+
+.copyright{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social a{
+    color: #646464;
+    padding: 10px;
+    font-size: 25px;
+}
